@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "F5DyLetELV452NXVckTnxdR3CVQ2YmT4ZYHwYUdLIhs=",
+  "Source": "book-subscription-rest",
+  "BasePath": "_content/book-subscription-rest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
