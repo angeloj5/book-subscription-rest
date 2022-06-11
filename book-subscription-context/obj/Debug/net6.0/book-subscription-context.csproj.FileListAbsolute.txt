@@ -1,0 +1,17 @@
+C:\Projects\book-subscription-rest\book-subscription-context\bin\Debug\net6.0\book-subscription-context.deps.json
+C:\Projects\book-subscription-rest\book-subscription-context\bin\Debug\net6.0\book-subscription-context.runtimeconfig.json
+C:\Projects\book-subscription-rest\book-subscription-context\bin\Debug\net6.0\book-subscription-context.dll
+C:\Projects\book-subscription-rest\book-subscription-context\bin\Debug\net6.0\book-subscription-context.pdb
+C:\Projects\book-subscription-rest\book-subscription-context\bin\Debug\net6.0\book-subscription-entity.dll
+C:\Projects\book-subscription-rest\book-subscription-context\bin\Debug\net6.0\book-subscription-entity.pdb
+C:\Projects\book-subscription-rest\book-subscription-context\obj\Debug\net6.0\book-subscription-context.csproj.AssemblyReference.cache
+C:\Projects\book-subscription-rest\book-subscription-context\obj\Debug\net6.0\book-subscription-context.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\book-subscription-rest\book-subscription-context\obj\Debug\net6.0\book-subscription-context.AssemblyInfoInputs.cache
+C:\Projects\book-subscription-rest\book-subscription-context\obj\Debug\net6.0\book-subscription-context.AssemblyInfo.cs
+C:\Projects\book-subscription-rest\book-subscription-context\obj\Debug\net6.0\book-subscription-context.csproj.CoreCompileInputs.cache
+C:\Projects\book-subscription-rest\book-subscription-context\obj\Debug\net6.0\book-subscription-context.csproj.CopyComplete
+C:\Projects\book-subscription-rest\book-subscription-context\obj\Debug\net6.0\book-subscription-context.dll
+C:\Projects\book-subscription-rest\book-subscription-context\obj\Debug\net6.0\refint\book-subscription-context.dll
+C:\Projects\book-subscription-rest\book-subscription-context\obj\Debug\net6.0\book-subscription-context.pdb
+C:\Projects\book-subscription-rest\book-subscription-context\obj\Debug\net6.0\book-subscription-context.genruntimeconfig.cache
+C:\Projects\book-subscription-rest\book-subscription-context\obj\Debug\net6.0\ref\book-subscription-context.dll
