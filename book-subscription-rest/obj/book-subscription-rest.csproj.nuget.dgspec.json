@@ -1,17 +1,87 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest.csproj": {}
+    "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest.csproj": {
+    "C:\\Projects\\book-subscription-rest\\book-subscription-context\\book-subscription-context.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest.csproj",
-        "projectName": "book-subscription-rest",
-        "projectPath": "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest.csproj",
+        "projectUniqueName": "C:\\Projects\\book-subscription-rest\\book-subscription-context\\book-subscription-context.csproj",
+        "projectName": "book-subscription-context",
+        "projectPath": "C:\\Projects\\book-subscription-rest\\book-subscription-context\\book-subscription-context.csproj",
         "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest\\obj\\",
+        "outputPath": "C:\\Projects\\book-subscription-rest\\book-subscription-context\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\book-subscription-rest\\book-subscription-entities\\book-subscription-entity.csproj": {
+                "projectPath": "C:\\Projects\\book-subscription-rest\\book-subscription-entities\\book-subscription-entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\book-subscription-rest\\book-subscription-entities\\book-subscription-entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\book-subscription-rest\\book-subscription-entities\\book-subscription-entity.csproj",
+        "projectName": "book-subscription-entity",
+        "projectPath": "C:\\Projects\\book-subscription-rest\\book-subscription-entities\\book-subscription-entity.csproj",
+        "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\book-subscription-rest\\book-subscription-entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,11 +109,71 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest.csproj",
+        "projectName": "book-subscription-rest",
+        "projectPath": "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest.csproj",
+        "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\book-subscription-rest\\book-subscription-context\\book-subscription-context.csproj": {
+                "projectPath": "C:\\Projects\\book-subscription-rest\\book-subscription-context\\book-subscription-context.csproj"
+              },
+              "C:\\Projects\\book-subscription-rest\\book-subscription-entities\\book-subscription-entity.csproj": {
+                "projectPath": "C:\\Projects\\book-subscription-rest\\book-subscription-entities\\book-subscription-entity.csproj"
+              },
+              "C:\\Projects\\book-subscription-rest\\book-subscription-service\\book-subscription-service.csproj": {
+                "projectPath": "C:\\Projects\\book-subscription-rest\\book-subscription-service\\book-subscription-service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.5, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -69,6 +199,67 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\book-subscription-rest\\book-subscription-service\\book-subscription-service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\book-subscription-rest\\book-subscription-service\\book-subscription-service.csproj",
+        "projectName": "book-subscription-service",
+        "projectPath": "C:\\Projects\\book-subscription-rest\\book-subscription-service\\book-subscription-service.csproj",
+        "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\book-subscription-rest\\book-subscription-service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\book-subscription-rest\\book-subscription-context\\book-subscription-context.csproj": {
+                "projectPath": "C:\\Projects\\book-subscription-rest\\book-subscription-context\\book-subscription-context.csproj"
+              },
+              "C:\\Projects\\book-subscription-rest\\book-subscription-entities\\book-subscription-entity.csproj": {
+                "projectPath": "C:\\Projects\\book-subscription-rest\\book-subscription-entities\\book-subscription-entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

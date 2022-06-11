@@ -1,4 +1,6 @@
-﻿using book_subscription_rest.Entities;
+﻿using book_subscription_context;
+using book_subscription_entity;
+using book_subscription_service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace book_subscription_rest.Controllers
@@ -7,14 +9,22 @@ namespace book_subscription_rest.Controllers
     [Route("books")]
     public class booksController : ControllerBase
     {
-        [HttpGet]
-        public ActionResult<List<Book>> GetBooks()
+        private readonly ApplicationDbContext MoDbContext;
+
+        IBookService MoBookService;
+        ISubscriptionService MoSubscriptionService;
+
+        public booksController(ApplicationDbContext PoDbContext)
         {
-            return new List<Book>()
-            {
-                new Book(){bookid=1, name="IT",text="This is about a clown!", price=10.25f, creationdate=DateTime.Now, modificationdate=DateTime.Now},
-                new Book(){bookid=2, name="The Lord of The Rings",text="This is about a ring!", price=15.25f, creationdate=DateTime.Now, modificationdate=DateTime.Now},
-            };
+            MoDbContext = PoDbContext;
+        }
+
+        [HttpGet]
+        public ActionResult<BookResult> GetBooks()
+        {
+            MoBookService = new BookServiceImpl();
+            MoBookService.DbContext = MoDbContext;
+            return MoBookService.GetBookCatalogue();
         }
     }
 }

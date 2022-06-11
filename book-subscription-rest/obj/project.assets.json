@@ -702,6 +702,44 @@
             "rid": "win"
           }
         }
+      },
+      "book-subscription-context/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5",
+          "book-subscription-entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/book-subscription-context.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/book-subscription-context.dll": {}
+        }
+      },
+      "book-subscription-entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/book-subscription-entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/book-subscription-entity.dll": {}
+        }
+      },
+      "book-subscription-service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "book-subscription-context": "1.0.0",
+          "book-subscription-entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/book-subscription-service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/book-subscription-service.dll": {}
+        }
       }
     }
   },
@@ -2046,13 +2084,30 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "book-subscription-context/1.0.0": {
+      "type": "project",
+      "path": "../book-subscription-context/book-subscription-context.csproj",
+      "msbuildProject": "../book-subscription-context/book-subscription-context.csproj"
+    },
+    "book-subscription-entity/1.0.0": {
+      "type": "project",
+      "path": "../book-subscription-entities/book-subscription-entity.csproj",
+      "msbuildProject": "../book-subscription-entities/book-subscription-entity.csproj"
+    },
+    "book-subscription-service/1.0.0": {
+      "type": "project",
+      "path": "../book-subscription-service/book-subscription-service.csproj",
+      "msbuildProject": "../book-subscription-service/book-subscription-service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.5",
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "book-subscription-context >= 1.0.0",
+      "book-subscription-entity >= 1.0.0",
+      "book-subscription-service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2061,11 +2116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest.csproj",
+      "projectUniqueName": "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest.csproj",
       "projectName": "book-subscription-rest",
-      "projectPath": "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest.csproj",
+      "projectPath": "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest.csproj",
       "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest\\obj\\",
+      "outputPath": "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2081,7 +2136,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\book-subscription-rest\\book-subscription-context\\book-subscription-context.csproj": {
+              "projectPath": "C:\\Projects\\book-subscription-rest\\book-subscription-context\\book-subscription-context.csproj"
+            },
+            "C:\\Projects\\book-subscription-rest\\book-subscription-entities\\book-subscription-entity.csproj": {
+              "projectPath": "C:\\Projects\\book-subscription-rest\\book-subscription-entities\\book-subscription-entity.csproj"
+            },
+            "C:\\Projects\\book-subscription-rest\\book-subscription-service\\book-subscription-service.csproj": {
+              "projectPath": "C:\\Projects\\book-subscription-rest\\book-subscription-service\\book-subscription-service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -2094,10 +2159,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[6.0.5, )"
-          },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",

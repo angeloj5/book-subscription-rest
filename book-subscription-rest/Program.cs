@@ -1,4 +1,3 @@
-using book_subscription_rest;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //Adding the SQL Server Service
-builder.Services.AddDbContext<ApplicationDbContext>(
+builder.Services.AddDbContext<book_subscription_context.ApplicationDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("defaultConnection"))
     );
 

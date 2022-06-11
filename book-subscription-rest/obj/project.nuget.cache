@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "140v8dbvdG48WXcHFysLn3d7/ex9U/T7SsarzmOhQkZ7d38m0W8W4qq5L4XrsefTwCPYX0xdxXNoPStNN1zfIg==",
+  "dgSpecHash": "MFy0adLLWTIc5N9ew+iQMdCgCOKpsVx++cFlYr1o21PS//H4QrlDRDL1P0BLJkZJzSbfaCdDIJI0IXCXlFojuw==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest.csproj",
+  "projectFilePath": "C:\\Projects\\book-subscription-rest\\book-subscription-rest\\book-subscription-rest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\angel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
