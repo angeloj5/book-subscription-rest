@@ -1,0 +1,17 @@
+C:\Projects\book-subscription-rest\book-subscription-service\bin\Debug\net6.0\book-subscription-service.deps.json
+C:\Projects\book-subscription-rest\book-subscription-service\bin\Debug\net6.0\book-subscription-service.dll
+C:\Projects\book-subscription-rest\book-subscription-service\bin\Debug\net6.0\book-subscription-service.pdb
+C:\Projects\book-subscription-rest\book-subscription-service\obj\Debug\net6.0\book-subscription-service.csproj.AssemblyReference.cache
+C:\Projects\book-subscription-rest\book-subscription-service\obj\Debug\net6.0\book-subscription-service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\book-subscription-rest\book-subscription-service\obj\Debug\net6.0\book-subscription-service.AssemblyInfoInputs.cache
+C:\Projects\book-subscription-rest\book-subscription-service\obj\Debug\net6.0\book-subscription-service.AssemblyInfo.cs
+C:\Projects\book-subscription-rest\book-subscription-service\obj\Debug\net6.0\book-subscription-service.csproj.CoreCompileInputs.cache
+C:\Projects\book-subscription-rest\book-subscription-service\obj\Debug\net6.0\book-subscription-service.dll
+C:\Projects\book-subscription-rest\book-subscription-service\obj\Debug\net6.0\refint\book-subscription-service.dll
+C:\Projects\book-subscription-rest\book-subscription-service\obj\Debug\net6.0\book-subscription-service.pdb
+C:\Projects\book-subscription-rest\book-subscription-service\obj\Debug\net6.0\ref\book-subscription-service.dll
+C:\Projects\book-subscription-rest\book-subscription-service\bin\Debug\net6.0\book-subscription-entity.dll
+C:\Projects\book-subscription-rest\book-subscription-service\bin\Debug\net6.0\book-subscription-entity.pdb
+C:\Projects\book-subscription-rest\book-subscription-service\obj\Debug\net6.0\book-subscription-service.csproj.CopyComplete
+C:\Projects\book-subscription-rest\book-subscription-service\bin\Debug\net6.0\book-subscription-context.dll
+C:\Projects\book-subscription-rest\book-subscription-service\bin\Debug\net6.0\book-subscription-context.pdb

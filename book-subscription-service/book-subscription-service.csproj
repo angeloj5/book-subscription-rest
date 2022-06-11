@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>book_subscription_service</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\book-subscription-context\book-subscription-context.csproj" />
+    <ProjectReference Include="..\book-subscription-entities\book-subscription-entity.csproj" />
+  </ItemGroup>
+
+</Project>
