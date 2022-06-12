@@ -5,11 +5,11 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "book-subscription-rest", "book-subscription-rest\book-subscription-rest.csproj", "{F02F2B58-9FCE-45FB-B9AE-558C34E3AE7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "book-subscription-entity", "book-subscription-entities\book-subscription-entity.csproj", "{E01CF2A6-3B4E-4B7C-92AC-F0ED93BAEE52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "book-subscription-entity", "book-subscription-entities\book-subscription-entity.csproj", "{E01CF2A6-3B4E-4B7C-92AC-F0ED93BAEE52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "book-subscription-service", "book-subscription-service\book-subscription-service.csproj", "{165BA962-3D68-4BE1-AF05-8C839C72A7E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "book-subscription-service", "book-subscription-service\book-subscription-service.csproj", "{165BA962-3D68-4BE1-AF05-8C839C72A7E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "book-subscription-context", "book-subscription-context\book-subscription-context.csproj", "{FEE000D0-F41C-4ADD-94C5-CF8517BFFCBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "book-subscription-context", "book-subscription-context\book-subscription-context.csproj", "{FEE000D0-F41C-4ADD-94C5-CF8517BFFCBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

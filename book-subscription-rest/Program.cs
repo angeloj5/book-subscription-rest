@@ -13,6 +13,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<book_subscription_context.ApplicationDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("defaultConnection"))
     );
+builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -24,6 +25,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+//app.UseRouting();
+app.UseCors(LoPolicy=> LoPolicy.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200"));
 
 app.UseAuthorization();
 
