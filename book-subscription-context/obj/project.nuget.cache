@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PU5ThGr6wjO7CGQN4p7IyyTyZs5kNCU1S98y25iaNnAsrElYXtPNaQXbqd2mKUcd23eVLJ6Z6gOw/mkkvx2TfA==",
+  "dgSpecHash": "2azEYierDEsLnNtU5iS+mBZzwjqt7M9DsDdgEcxa7F8wqITdqPPKMn7rLZs8zwvQ1XupF+Ax0+2+W0xWvfkfBA==",
   "success": true,
   "projectFilePath": "C:\\Projects\\book-subscription-rest\\book-subscription-context\\book-subscription-context.csproj",
   "expectedPackageFiles": [
@@ -48,5 +48,12 @@
     "C:\\Users\\angel\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://api.nuget.org/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }
